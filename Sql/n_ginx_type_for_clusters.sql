@@ -1,0 +1,17 @@
+create table if not exists n_ginx_type_for_clusters(
+type_ip_number Integer not null,
+type_server_dns varchar(255) null,
+virtualization_code Integer null,
+server_weights varchar(255) null,
+server_slow_start varchar(255) null,
+enable_session_persistance varchar(255) null,
+enable_sticky_cookie varchar(255) null,
+enable_sticky_route varchar(255) null,
+cookie_learn varchar(255) null,
+sticky_session_approach_enabled char null,
+base_image_url varchar(255) null,
+learns_param_url varchar(255) null,
+learned_param_url varchar(255) null,
+dimensionality_reduction varchar(255) null,
+entity_state varchar(255) null,
+constraint n_ginx_type_for_clusters_pk primary key(type_ip_number));

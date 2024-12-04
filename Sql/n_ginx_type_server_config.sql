@@ -1,0 +1,15 @@
+create table if not exists n_ginx_type_server_config(
+type_ip_number Integer not null,
+type_server_dns varchar(255) null,
+round_robin varchar(255) null,
+least_connection varchar(255) null,
+ip_hash varchar(255) null,
+generic_hash Integer null,
+least_time varchar(255) null,
+header varchar(255) null,
+last_byte Integer null,
+last_byte_inflight varchar(255) null,
+least_time_header varchar(255) null,
+least_time_last_byte varchar(255) null,
+monitor_storage varchar(255) null,
+constraint n_ginx_type_server_config_pk primary key(type_ip_number));
